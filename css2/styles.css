@@ -1,0 +1,35 @@
+    section{
+      min-height: 100vh;
+    }
+
+    /* Aquí centré el texto según el CSS que nos proporcionó Wences. Display Flex me permitió mover el elemento*/
+    .first-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .third-section img{
+      width: 100%;
+    }
+
+    @media (min-width: 768px){
+      .second-section{
+        display: flex;
+        justify-content: space-around;
+      }
+      .second-section
+        p{
+          width: 33%;
+          padding: 10px;
+        }
+
+      .third-section{
+        display: flex;
+        justify-content: space-around;
+        min-height: 70vh;
+      }
+      .second-image{
+        align-self: flex-end;
+        }
+      } 
+    }
